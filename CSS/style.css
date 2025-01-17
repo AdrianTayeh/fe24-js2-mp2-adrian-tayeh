@@ -1,0 +1,42 @@
+.filterCard {
+    width: 20%;
+    height: auto;
+}
+
+.productCard {
+    width: 18rem;
+}
+
+.productAmount {
+    width: 50px;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: textfield;
+}
+
+.modal-fullscreen {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content {
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.modal-body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.carousel-item img {
+    max-height: 70vh;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
