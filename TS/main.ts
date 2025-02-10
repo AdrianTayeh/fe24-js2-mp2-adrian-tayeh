@@ -1,8 +1,8 @@
-import { initialize, applyFiltersAndSort, setSortCriteria } from "./sortAndFilter.js";
-import { fetchCategories } from "./categories.js";
-import { createModal } from "./modal.js";
-import { getProductById } from "./utils.js";
-import { Product } from "./product.js";
+import { initialize, applyFiltersAndSort, setSortCriteria } from "./sortAndFilter.ts";
+import { fetchCategories } from "./categories.ts";
+import { createModal } from "./modal.ts";
+import { getProductById } from "./utils.ts";
+import { Product } from "./product.ts";
 import * as bootstrap from 'bootstrap';
 
 let products: Product[] = [];

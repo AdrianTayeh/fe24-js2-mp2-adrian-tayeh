@@ -1,5 +1,5 @@
-import { createModal } from './modal.js';
-import { Product } from './product.js';
+import { createModal } from './modal.ts';
+import { Product } from './product.ts';
 import * as bootstrap from 'bootstrap';
 
 export function createCard(product: Product): HTMLDivElement {

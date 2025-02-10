@@ -1,4 +1,4 @@
-import { Product } from "./product.js";
+import { Product } from "./product.ts";
 
 export function createModal(product: Product): HTMLDivElement {
   const modal = document.createElement("div");

@@ -1,5 +1,5 @@
-import { Product } from "./product.js";
-import { ProductType } from "./types.js";
+import { Product } from "./product.ts";
+import { ProductType } from "./types.ts";
 
 export async function getData(): Promise<Product[]> {
   const url = "https://dummyjson.com/products";

@@ -1,6 +1,6 @@
-import { getData } from "./fetch.js";
-import { applyFiltersAndSort } from "./sortAndFilter.js";
-import { Product } from "./product.js";
+import { getData } from "./fetch.ts";
+import { applyFiltersAndSort } from "./sortAndFilter.ts";
+import { Product } from "./product.ts";
 
 export async function fetchCategories(): Promise<string[]> {
   try {

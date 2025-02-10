@@ -1,4 +1,4 @@
-import { ProductType } from "./types.js";
+import { ProductType } from "./types.ts";
 
 export class Product implements ProductType {
   id: number;
